@@ -1,0 +1,35 @@
+body {
+   margin: 0;
+    background-image: url('../images/dogcatfish.jpg');
+}
+
+.fixed-top {
+  height: 75px;
+  position: fixed;
+  background: #0;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.logo {
+  height: 100%;
+  background-image: url('../images/dogcatfish.jpg');
+}
+
+.nav-list {
+  float: right;
+  list-style: none;
+  margin-top: 25px;
+}
+
+.nav-item {
+  float: left;
+  margin-right: 15px;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+}
+

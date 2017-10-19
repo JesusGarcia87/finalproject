@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+
+.main-nav{
+  background: whte;
+}
+
+.logo{
+  height: 75px;
+  background-image: url('../images/dogcatfish.jpg');
+}
+
+.nav-list {
+  float: right;
+  list-style: none;
+  margin-top: 27.5px;
+}
+
+.nav-item {
+  float: left;
+  margin-right: 15px;
+}
+
+.nav-link {
+  color: red;
+  text-decoration: none;
+  
+}
+
+.nav-link:hover {
+    color: gold;
+    text-decoration: overline;
+    font-size: 36px;
+}
