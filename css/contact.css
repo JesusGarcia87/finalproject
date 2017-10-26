@@ -1,0 +1,22 @@
+body {
+    background-image: url('../images/zoa1.jpg');
+}
+/**start contact form styles**/
+.form-container {
+    width: 50%;
+    margin: 25px auto 0px;
+}
+/**end contact form stlyes**/
+
+/**start google map**/
+
+.map-container {
+  width: 50%;   
+  margin: 25px auto 0px;
+}
+/**end google map**/
+
+.youtube {
+  width: 50%;   
+  margin: 25px auto 0px;
+}

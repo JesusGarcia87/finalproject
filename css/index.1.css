@@ -1,36 +1,32 @@
-body {
-  margin: 0;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
-
-.main-nav{
-  background: whte;
+li {
+    float: left;
+    border-right:1px solid #bbb;
 }
 
-.logo{
-  height: 75px;
-  background-image: url('../images/dogcatfish.jpg');
+li:last-child {
+    border-right: none;
 }
 
-.nav-list {
-  float: right;
-  list-style: none;
-  margin-top: 27.5px;
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-.nav-item {
-  float: left;
-  margin-right: 15px;
+li a:hover:not(.active) {
+    background-color: #111;
 }
 
-.nav-link {
-  color: red;
-  text-decoration: none;
-  
-}
-
-.nav-link:hover {
-    color: gold;
-    text-decoration: overline;
-    font-size: 36px;
+.active {
+    background-color: #4CAF50;
 }

@@ -1,0 +1,48 @@
+body{
+background-image: url('../images/zoa1.jpg');
+}
+
+/** Start Bio Section Styles **/
+.bio-container:after {
+    content: "";
+    display: block;
+    clear: both;
+    width:100px;
+    height:100px;
+}
+
+.bio-section {
+    width: 50%;
+    float: left;
+    font-family: 'Modak', cursive;
+
+}
+
+.selfie {
+    height: 300px;
+}
+/** End Bio Section Styles **/
+
+/** Start Info Section Styles **/
+.info-container:after {
+  content: "";
+  display: block;
+  clear: both;
+ 
+ 
+  
+}
+
+.info-section {
+    width: 30%;
+    margin-left: 10%;
+    float: left;
+    text-align: center;
+    font-family: 'Rye', cursive;
+}
+/** End Info Section Styles **/
+
+.youtube {
+  width: 50%;   
+  margin: 25px auto 0px;
+}

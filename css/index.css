@@ -1,26 +1,19 @@
 body {
-   margin: 0;
-    background-image: url('../images/dogcatfish.jpg');
+  background-image: url('../images/.jpg');
 }
 
-.fixed-top {
+.main-nav{
+   background: black;
+}
+
+.logo{
   height: 75px;
-  position: fixed;
-  background: #0;
-  top: 0;
-  right: 0;
-  left: 0;
-}
-
-.logo {
-  height: 100%;
-  background-image: url('../images/dogcatfish.jpg');
 }
 
 .nav-list {
   float: right;
   list-style: none;
-  margin-top: 25px;
+  margin-top: 27.5px;
 }
 
 .nav-item {
@@ -28,8 +21,117 @@ body {
   margin-right: 15px;
 }
 
-.nav-item a {
-  color: white;
+.nav-link {
+  color: red;
   text-decoration: none;
+  
 }
 
+.nav-link:hover {
+    color: white;
+    text-decoration: overline;
+    font-size: 36px;
+}
+
+/** start hero **/
+
+
+.hero-background {
+  height: 500px;
+  background-image: url('../images/zoa.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero-texts {
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 225px;
+  color: #ffffff;
+}
+
+.text-background {
+   background-color: rgba(0,0,0,.5);
+}
+/** end hero**/
+
+/** start column**/
+
+.column-container{
+  padding: 15px;
+  background-image: url('../images/zoa1.jpg');
+}
+
+
+  
+.column-container:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.column {
+  width: 22.5%;
+  text-align: center;
+  float: left;
+  margin-left: 2%;
+  text-color: #ffff;
+}
+
+.column-images {
+  width: 100%;
+  height: 300%;
+}
+/** end column styles**/
+
+/** start footer styles**/
+
+.main-footer {
+    border-top: 1px solid #000000;
+    background: black;
+    color: #FAFAFA;
+}
+
+.main-footer:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.footer-section {
+    width: 33%;
+    height: 150px;
+    float: left;
+    padding: 15px 0px;
+    border-left: 1px solid #000000;
+    text-align: center;
+}
+
+.section {
+    height: 50px;
+    width: 150px;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.social-media {
+    height: 50px;
+    width: 50px;
+}
+
+.social-media a .fa {
+    color: white;
+    font-size: 36px;
+}
+
+/** End Footer Styles **/
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
